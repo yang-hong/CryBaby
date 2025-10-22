@@ -1,0 +1,58 @@
+{
+  "which_fold": 1,
+  "seed": 42,
+  "model": "lr",
+  "labels": [
+    "hungry",
+    "uncomfortable"
+  ],
+  "samplerate": 16000,
+  "feature": "YAMNet-avg-embedding-1024",
+  "train_counts": {
+    "raw": 45,
+    "aug": 225,
+    "total": 270
+  },
+  "val_counts": {
+    "raw": 12
+  },
+  "metrics": {
+    "macro_f1": 1.0,
+    "per_class": {
+      "hungry": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      },
+      "uncomfortable": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      }
+    },
+    "accuracy": 1.0,
+    "macro_avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "weighted_avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "confusion_matrix": [
+      [
+        6,
+        0
+      ],
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  "note": "This JSON describes ONLY the best fold that produced yamnet_lr_best.joblib. Train uses raw+aug; validation uses raw only."
+}

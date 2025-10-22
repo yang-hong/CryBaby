@@ -1,0 +1,108 @@
+{
+  "model": "lr",
+  "labels": [
+    "hungry",
+    "uncomfortable"
+  ],
+  "samplerate": 16000,
+  "feature": "YAMNet-avg-embedding-1024",
+  "kfold": 5,
+  "seed": 42,
+  "f1_per_fold": [
+    1.0,
+    0.4857142857142857,
+    0.717948717948718,
+    0.8166666666666667,
+    1.0
+  ],
+  "fold_summaries": [
+    {
+      "fold": 1,
+      "f1": 1.0,
+      "n_train_raw": 45,
+      "n_train_aug": 225,
+      "n_val_raw": 12,
+      "confusion_matrix": [
+        [
+          6,
+          0
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "fold": 2,
+      "f1": 0.4857142857142857,
+      "n_train_raw": 45,
+      "n_train_aug": 225,
+      "n_val_raw": 12,
+      "confusion_matrix": [
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "fold": 3,
+      "f1": 0.717948717948718,
+      "n_train_raw": 46,
+      "n_train_aug": 230,
+      "n_val_raw": 11,
+      "confusion_matrix": [
+        [
+          5,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "fold": 4,
+      "f1": 0.8166666666666667,
+      "n_train_raw": 46,
+      "n_train_aug": 230,
+      "n_val_raw": 11,
+      "confusion_matrix": [
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "fold": 5,
+      "f1": 1.0,
+      "n_train_raw": 46,
+      "n_train_aug": 230,
+      "n_val_raw": 11,
+      "confusion_matrix": [
+        [
+          5,
+          0
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    }
+  ],
+  "cv_macro_f1_mean": 0.8040659340659341,
+  "cv_macro_f1_std": 0.1927189880468325,
+  "train_scheme": "train = raw + augmented(raw_train); val = raw only"
+}

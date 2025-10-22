@@ -1,0 +1,11 @@
+{
+  "labels": [
+    "hungry",
+    "uncomfortable"
+  ],
+  "samplerate": 16000,
+  "feature": "YAMNet-avg-embedding-1024",
+  "cv_macro_f1_mean": 0.8040659340659341,
+  "cv_macro_f1_std": 0.1927189880468325,
+  "note": "Trained with raw_train + augmented(raw_train); validated on raw only."
+}

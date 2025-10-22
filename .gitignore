@@ -1,0 +1,84 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Docker
+.dockerignore
+
+# Logs
+*.log
+
+# Model files (large files - consider Git LFS)
+*.joblib
+*.pkl
+*.h5
+*.model
+
+# Data files (consider Git LFS for large datasets)
+*.wav
+*.mp3
+*.mp4
+*.m4a
+*.3gp
+data/
+artifacts/
+InfantsCrySound/
+Infants Cry Sound.zip
+
+# TensorFlow Hub cache
+.tfhub_cache/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Pages files
+*.pages

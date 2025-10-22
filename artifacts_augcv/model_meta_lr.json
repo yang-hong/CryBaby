@@ -1,0 +1,13 @@
+{
+  "labels": [
+    "hungry",
+    "uncomfortable"
+  ],
+  "samplerate": 16000,
+  "feature": "YAMNet-avg-embedding-1024",
+  "cv_macro_f1_mean": 0.7834609834609835,
+  "cv_macro_f1_std": 0.17142593788686697,
+  "note": "Train: raw + aug(raw_train). Val: raw only.",
+  "seed": 999,
+  "model": "lr"
+}
